@@ -8,6 +8,7 @@
 *.obj
 *.lo
 *.la
+*.slo
 
 # Libraries
 *.lib
@@ -15,6 +16,25 @@
 *.dll
 *.so
 *.dylib
+*.lai
+*.la
+
+# Prerequisites
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Fortran module files
+*.mod
+*.smod
 
 # Executables
 *.exe
@@ -25,6 +45,7 @@
 *.pdb
 *.idb
 *.dSYM/
+*.dwo
 *.gcda
 *.gcno
 *.gcov
